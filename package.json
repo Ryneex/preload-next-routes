@@ -1,0 +1,38 @@
+{
+    "name": "preload-next-routes",
+    "version": "1.0.0",
+    "description": "A Next.js plugin to preload all routes in development for faster navigation.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "build": "shx rm -rf dist && tsc && shx cp package.json LICENSE README.md dist",
+        "upload": "npm run build && cd dist && npm publish",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "boxen": "^8.0.1",
+        "log-symbols": "^7.0.0",
+        "next-routes-list": "^1.1.5",
+        "picocolors": "^1.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^22.7.4",
+        "next": "^14.2.13",
+        "prettier": "^3.3.3",
+        "shx": "^0.3.4",
+        "typescript": "^5.6.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ryneex/preload-next-routes.git"
+    },
+    "keywords": [
+        "nextjs",
+        "plugin",
+        "preload",
+        "routes",
+        "development"
+    ],
+    "author": "MI Sajid",
+    "license": "ISC"
+}
