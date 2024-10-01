@@ -1,6 +1,6 @@
 # Preload Next Routes
 
-this is a Next.js plugin that preloads all routes in development mode, enabling faster navigation through your project. This plugin helps streamline your development workflow by reducing loading times when switching between routes.
+This is a Next.js plugin that preloads all routes in development mode, enabling faster navigation through your project. This plugin helps streamline your development workflow by reducing loading times when switching between routes.
 
 ## Installation
 
